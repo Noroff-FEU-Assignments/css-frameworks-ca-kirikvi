@@ -4,7 +4,7 @@ body {
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: $font-family-body;
     color: $primary;
     background-image: radial-gradient(circle at center, $white, $body-bg);
     display: flex;
