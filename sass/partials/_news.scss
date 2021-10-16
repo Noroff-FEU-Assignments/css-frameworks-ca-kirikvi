@@ -1,0 +1,50 @@
+.news-block {
+    margin: 15px;
+    background-color: $white;
+    border-radius: 15px;
+    border: none;
+    box-shadow: $box-shadow-sm;  
+}
+
+.news-block h2 {
+    color: $nav-colour-text;
+    font-size: 1.1rem;
+}
+
+.card-body .btn {
+    width: 100%;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.card-body .btn:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 10%;
+    height: 100%;
+    background-color: $primary;
+    border-radius: 0 .25rem .25rem 0;
+}
+
+.page-number {
+    border-radius: 20px;
+    margin-top: 20px;  
+}
+
+.page-link {
+    border: solid 1px $secondary !important;
+    background-color: $white !important;
+    color: $secondary !important;
+}
+
+.current-page .page-link {
+    border-radius: .25rem 0 0 .25rem;
+    background-color: $secondary !important;
+    color: $white !important;
+}
+
+.page-item:last-of-type {
+    border-radius: 0 .25rem .25rem 0;
+}

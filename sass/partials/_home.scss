@@ -1,0 +1,90 @@
+.carousel-indicators button {
+    height: 20px !important;
+    width: 20px !important;
+    border-radius: 10px !important;
+}
+
+.carousel-indicators .active {
+    background-color: $secondary !important;
+}
+
+.carousel-inner {
+    max-height: 600px;
+}
+
+.nav-tabs button,
+.accordion-button {
+    color: $secondary !important;
+}
+
+.nav-tabs button.active {
+    background-color: $white !important;
+    color: $primary;
+    border: none;
+    border-radius: .25rem .25rem 0 0;
+}
+
+.tab-content {
+    border-radius: 0 .25rem .25rem .25rem;
+    height: 100%;
+    margin-bottom: 3rem;
+    box-shadow: $box-shadow-sm;  
+}
+
+.tab-container .row {
+    padding: 20px;
+}
+
+.tab-image {
+    max-width: 100%;
+}
+
+.list-item-container .row {
+    justify-content: center;
+    border-radius: .25rem;
+}
+
+.accordion {
+    margin-top: 3rem;
+    margin-bottom: 10rem;
+    border-radius: .25rem;
+    box-shadow: $box-shadow-sm;   
+}
+
+.accordion-body {
+    background-image: radial-gradient(circle at center, $white, #f5f5f5) !important;
+}
+
+.accordion-image {
+    display: block;
+    margin: 15px auto;
+    max-width: 100%;
+}
+
+.accordion-button {
+    background-color: $white !important;
+    font-size: 1.3rem;
+}
+
+.accordion-button:not(.collapsed){
+    border-bottom: 2px solid $secondary !important;
+}
+
+.accordion-body .tab-icons {
+    text-align: center;
+}
+
+.tab-icons p,
+.tab-icons i {
+    color: $nav-colour-text;
+    display: inline-block;
+    padding: 10px;
+}
+
+.tab-icons i {
+    font-size: 1.3rem !important;
+}
+
+.tab-pane {
+    padding: 20px;
+}

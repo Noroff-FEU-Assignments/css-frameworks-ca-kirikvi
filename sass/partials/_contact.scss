@@ -1,0 +1,51 @@
+.contact-h1 {
+    margin-bottom: 100px;
+}
+
+.contact-form {
+    background-color: $nav-colour;
+    padding: 20px;
+    margin-bottom: 100px;
+    box-shadow: $box-shadow-md;  
+}
+
+.contact-form input,
+.contact-form textarea {
+    background-color: $white;
+}
+
+.input-group-text {
+    background-color: $input-gray;
+}
+
+.contact-form .form-check-input {
+    background-color: $secondary;
+    border: none;
+}
+
+.contact-form .btn {
+    background-color: $primary;
+    width: 100%;
+    border: none;
+}
+
+.list-group-item {
+    border: none;
+    color: $primary;
+    padding: 1rem;
+    width: 50%;
+    font-size: 1.1rem;
+    background-color: transparent;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.list-group-item p {
+    margin: auto;
+}
+
+.list-group-item i {
+    font-size: 2rem;
+    padding: 10px;
+}
